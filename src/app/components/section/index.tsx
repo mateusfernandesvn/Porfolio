@@ -1,5 +1,11 @@
 import { ReactNode } from "react";
-export function Section({ children }: { children: React.ReactNode }) {
+
+interface SectionProps {
+  id: string;
+  children: ReactNode;
+}
+
+export function Section({id, children}: SectionProps) {
   return (
     <section className="w-full flex flex-col items-center justify-center mt-8 p-12 ">
       {children}

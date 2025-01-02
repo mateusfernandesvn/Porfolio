@@ -22,21 +22,21 @@ export default function Header() {
           </Link>
 
           <Link
-            href="t/about"
+            href="#about"
             className="hover:scale-105  duration-300 transition-all hover:text-purple-400"
           >
             {t("about")}
           </Link>
 
           <Link
-            href="project"
+            href="#project"
             className="hover:scale-105  duration-300 transition-all hover:text-purple-400"
           >
             {t("project")}
           </Link>
 
           <Link
-            href="contact"
+            href="#contact"
             className="hover:scale-105 duration-300 transition-all hover:text-purple-400"
           >
             {t("contact")}

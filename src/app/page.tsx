@@ -50,38 +50,38 @@ export default function Home() {
       </div>
 
       <Container>
-        <Section>
+        <Section id="about">
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleAbout")} <span className="text-purple-600">.</span>
+            {t("titleAbout")} 
           </h1>
           <p className="text-center mt-6 text-white text-base lg:text-lg">
             {t("textAbout")}
           </p>
         </Section>
 
-        <Section>
+        <Section  id="services">
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleServices")} <span className="text-purple-600">.</span>
+            {t("titleServices")} 
           </h1>
           <CardServices/>
         </Section>
 
-        <Section>
+        <Section  id="skills">
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleSkills")}  <span className="text-purple-600">.</span>
+            {t("titleSkills")}  
           </h1>
           <Skills />
         </Section>
 
-        <Section>
+        <Section  id="project">
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleProject")}  <span className="text-purple-600">.</span>
+            {t("titleProject")} 
           </h1>
         </Section>
 
-        <Section>
+        <Section  id="contact">
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleContact")}  <span className="text-purple-600">.</span>
+            {t("titleContact")}  
           </h1>
         </Section>
 
