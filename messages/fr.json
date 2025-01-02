@@ -1,0 +1,21 @@
+{
+ 
+    "Home":{
+        "home": "Accueil",
+        "about": "À propos",
+        "project": "Projet",
+        "contact": "Contact",
+        "title":"Mateus Fernandes",
+        "caption":"Développeur Front-End",
+        "description":"Ceci est un site d'exemple à des fins éducatives.",
+        "cta": "Entrer en contact",
+        "curriculum": "Voir mon curriculum",
+        "copyright": "2025 Tous les droits réservés. Merci de votre visite!",
+        "titleAbout":"À propos",
+        "textAbout": "Je suis technicien en développement de systèmes, diplômé du Senai Cimatec, où j'ai acquis une base solide en programmation et en création de solutions technologiques. Au cours de ma formation, j'ai acquis une expérience pratique avec des technologies telles que HTML, CSS, JavaScript, Node.js, C, MySQL, Figma et GitHub, tout en approfondissant mes connaissances dans React, Next.js, TypeScript et Tailwind CSS.Je suis à la recherche de ma première opportunité professionnelle dans le domaine du développement, où je pourrais appliquer mes connaissances, collaborer avec des professionnels expérimentés et contribuer à des projets innovants. Mon objectif est de progresser continuellement en tant que développeur, en apportant de la valeur et des solutions efficaces à chaque défi.",
+        "titleServices": "Services",
+        "titleSkills": "Compétences",
+        "titleProject": "Projets",
+        "titleContact": "Contact"
+    }
+}
