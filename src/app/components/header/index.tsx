@@ -9,7 +9,7 @@ export default function Header() {
     <div className="flex w-full p-5 bg-black text-white ">
       <nav className="w-full px-20 flex justify-between items-center max-lg:px-2">
         <div>
-          <Link href="/" className="text-2xl uppercase font-bold ">
+          <Link href="/" className="text-2xl uppercase font-bold">
             &lt;MF <span className="text-purple-500">Dev</span>/&gt;
           </Link>
         </div>

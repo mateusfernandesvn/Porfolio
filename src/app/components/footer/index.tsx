@@ -5,22 +5,21 @@ export default function Footer() {
    const t = useTranslations("Home"); 
 
   return (
-    <div className="w-full h-20 bg-neutral-950 text-white flex flex-col items-center justify-center px-8 md:flex-row md:justify-between">
-      {/* Copyright */}
-      <p className="text-center text-sm text-gray-400 opacity-80 mt-4 mb-2">
+    <div className="w-full p-6 flex-col-reverse bg-black text-white flex  items-center justify-center md:flex-row md:justify-around">
+
+      <p className="text-center text-sm text-gray-400 opacity-80">
        {t("copyright")}
       </p>
       
-      {/* Icons */}
-      <div className="flex gap-6 items-center justify-center mb-4">
+      <div className="flex gap-6 items-center justify-center">
         <a
-          href="https://www.linkedin.com/in/mateusveloso2608"
+          href="https://www.linkedin.com/in/mateusfernandesvn/"
           target="_blank"
           aria-label="LinkedIn"
         >
           <Linkedin
-            size={20}
-            className="hover:text-blue-500 duration-200 transition-all"
+            size={24}
+            className="hover:text-blue-500 duration-200 transition-all "
           />
         </a>
         <a
@@ -28,7 +27,7 @@ export default function Footer() {
           aria-label="Email"
         >
           <Mail
-            size={20}
+            size={24}
             className="hover:text-red-500 duration-200 transition-all"
           />
         </a>
@@ -38,7 +37,7 @@ export default function Footer() {
           aria-label="GitHub"
         >
           <Github
-            size={20}
+            size={24}
             className="hover:text-purple-500 duration-200 transition-all"
           />
         </a>

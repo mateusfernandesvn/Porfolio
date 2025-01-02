@@ -32,12 +32,11 @@ export function Skills() {
   ];
 
   return (
-    <div className="grid grid-cols-5 gap-6 mt-8  max-md:grid-cols-3 ">
+    <div className="grid grid-cols-5 gap-6 mt-8 max-lg:grid-cols-3 max-md:grid-cols-2">
       {skills.map((skill, index) => (
         <div
           key={index}
-          className="flex flex-row bg-white py-2 px-6 justify-center shadow-lg rounded-xl gap-6 items-center hover:scale-105 duration-300 transition-all"
-        >
+          className="flex flex-row bg-white py-2 px-6 justify-center shadow-lg rounded-xl gap-5 items-center hover:scale-105 duration-300 transition-all">
           <div className="mb-2 text-purple-600">{skill.icon}</div>
           <p className="text-black font-medium">{skill.title}</p>
         </div>

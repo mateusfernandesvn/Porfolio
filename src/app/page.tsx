@@ -5,6 +5,8 @@ import Img from "../../public/image.png";
 import { Container } from "./components/container";
 import { Section } from "./components/section";
 import { Skills } from "./components/skills";
+import { CardServices } from "./components/cardServices";
+import ScrollToTopButton from "./components/scrollButton";
 
 export default function Home() {
   const t = useTranslations("Home");
@@ -24,7 +26,7 @@ export default function Home() {
             <p className="text-sm sm:text-base md:text-lg text-gray-300">
               {t("description")}
             </p>
-            <div className="flex gap-4 items-center justify-center flex-wrap mt-4 max-md:flex-col">
+            <div className="flex gap-4 items-center justify-center flex-wrap m-6 max-md:flex-col">
               <button className="p-3 bg-transparent border-2 font-medium border-purple-600 text-white rounded-xl shadow-md hover:bg-purple-700">
                 {t("curriculum")}
               </button>
@@ -49,38 +51,41 @@ export default function Home() {
 
       <Container>
         <Section>
-          <h1 className="text-white text-2xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleAbout")}
+          <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
+            {t("titleAbout")} <span className="text-purple-600">.</span>
           </h1>
-          <p className="text-justify mt-6 text-white text-base lg:text-lg">
+          <p className="text-center mt-6 text-white text-base lg:text-lg">
             {t("textAbout")}
           </p>
         </Section>
 
         <Section>
-          <h1 className="text-white text-2xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleServices")}
+          <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
+            {t("titleServices")} <span className="text-purple-600">.</span>
           </h1>
+          <CardServices/>
         </Section>
 
         <Section>
-          <h1 className="text-white text-2xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleSkills")}
+          <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
+            {t("titleSkills")}  <span className="text-purple-600">.</span>
           </h1>
           <Skills />
         </Section>
 
         <Section>
-          <h1 className="text-white text-2xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleProject")}
+          <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
+            {t("titleProject")}  <span className="text-purple-600">.</span>
           </h1>
         </Section>
 
         <Section>
-          <h1 className="text-white text-2xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleContact")}
+          <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
+            {t("titleContact")}  <span className="text-purple-600">.</span>
           </h1>
         </Section>
+
+      <ScrollToTopButton/>
       </Container>
     </div>
   );
