@@ -15,9 +15,14 @@
         "titleAbout":"About",
         "textAbout": "I am a Systems Development Technician, graduated from Senai Cimatec, where I built a solid foundation in programming and creating technological solutions. During my studies, I gained practical experience with technologies such as HTML, CSS, JavaScript, Node.js, C, MySQL, Figma, and GitHub, while deepening my knowledge in React, Next.js, TypeScript, and Tailwind CSS.I am seeking my first professional opportunity in the development field, where I can apply my knowledge, collaborate with experienced professionals, and contribute to innovative projects. My goal is to continually grow as a developer, delivering value and efficient solutions to every challenge.",
         "titleServices": "Services",
+        "webDevelopment": "Development of customized and optimized web applications.",
+        "uiDesign": "Creation of intuitive and engaging interfaces for an optimal experience.",
+        "seoOptimization": "Optimization of websites for search engines, increasing visibility.",
+        "maintenance": "Continuous maintenance and technical support to ensure your website's performance.",
         "titleSkills": "Skills",
         "titleProject": "Project",
-        "titleContact": "Contact"
+        "titleContact": "Contact",
+        "textContact": "Do you have any questions or want to discuss a project? Send me an email, I’m available to chat!"
 
     }
 }

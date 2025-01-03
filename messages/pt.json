@@ -14,9 +14,14 @@
         "titleAbout":"Sobre",
         "textAbout": "Sou Técnico em Desenvolvimento de Sistemas, formado pelo Senai Cimatec, onde desenvolvi uma base sólida em programação e criação de soluções tecnológicas. Durante minha formação, adquiri experiência prática com tecnologias como HTML, CSS, JavaScript, Node.js, C, MySQL, Figma e GitHub, além de aprofundar meus conhecimentos em React, Next.js, TypeScript e Tailwind CSS. Estou em busca da minha primeira oportunidade profissional na área de desenvolvimento, onde possa aplicar meus conhecimentos, colaborar com profissionais experientes e contribuir para projetos inovadores. Meu objetivo é crescer continuamente como desenvolvedor, entregando valor e soluções eficientes em cada desafio.",
         "titleServices": "Serviços",
+        "webDevelopment": "Desenvolvimento de aplicações web personalizadas e otimizadas.",
+        "uiDesign":"Criação de interfaces intuitivas e envolventes para uma ótima experiência.",
+        "seoOptimization": "Otimização de sites para motores de busca, aumentando a visibilidade.",
+        "maintenance": "Manutenção e suporte técnico contínuo para garantir a performance do seu site.",
         "titleSkills": "Habilidades",
         "titleProject": "Projetos",
-        "titleContact": "Contato"
+        "titleContact": "Contato",
+        "textContact":"Tem alguma dúvida ou quer discutir um projeto? Envie um e-mail para mim, estou à disposição para conversar!"
 
     }
 }

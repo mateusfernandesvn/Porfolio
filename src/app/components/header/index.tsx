@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { Moon } from "lucide-react";
 import { Languages } from "lucide-react";
 export default function Header() {
   const t = useTranslations("Home");
@@ -13,7 +12,7 @@ export default function Header() {
             &lt;MF <span className="text-purple-500">Dev</span>/&gt;
           </Link>
         </div>
-        <div className="flex gap-14 items-center text-lg max-lg:hidden">
+        <div className="flex gap-14 items-center capitalize text-lg max-lg:hidden">
           <Link
             href="/"
             className="hover:scale-105  duration-300 transition-all hover:text-purple-400"
@@ -46,9 +45,6 @@ export default function Header() {
         <div className="flex gap-2 items-center">
           <div className="cursor-pointer hover:bg-purple-400 rounded-md p-2 transition-all duration-200">
             <Languages size={20} />
-          </div>
-          <div className="cursor-pointer hover:bg-purple-400 rounded-md p-2 transition-all duration-200">
-            <Moon size={20} />
           </div>
         </div>
       </nav>

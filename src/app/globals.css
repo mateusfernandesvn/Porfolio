@@ -69,3 +69,21 @@
 html {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9333ea; 
+  border-radius: 6px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000; 
+}
+
+* {
+  scrollbar-color: #9333ea #000000; 
+  scrollbar-width: thin; 
+}
