@@ -5,13 +5,13 @@ export default function Footer() {
    const t = useTranslations("Home"); 
 
   return (
-    <div className="w-full p-6 flex-col-reverse bg-black text-white flex  items-center justify-center md:flex-row md:justify-around">
+    <div className="w-full p-6 flex-col-reverse bg-black text-white flex  items-center justify-center md:flex-row md:justify-around ">
 
-      <p className="text-center text-sm text-gray-400 opacity-80">
+      <p className="text-center text-sm text-gray-400 opacity-80 md: mt-4">
        {t("copyright")}
       </p>
       
-      <div className="flex gap-6 items-center justify-center">
+      <div className="flex gap-6  items-center justify-center ">
         <a
           href="https://www.linkedin.com/in/mateusfernandesvn/"
           target="_blank"

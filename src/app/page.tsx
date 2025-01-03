@@ -6,9 +6,7 @@ import { Container } from "./components/container";
 import { Section } from "./components/section";
 import { Skills } from "./components/skills";
 import { CardServices } from "./components/cardServices";
-import ScrollToTopButton from "./components/scrollButton";
-import {Mail } from "lucide-react";
-import {CardProject} from "./components/cardProject";
+import { Mail } from "lucide-react";
 
 export default function Home() {
   const t = useTranslations("Home");
@@ -21,6 +19,7 @@ export default function Home() {
           <div className="flex flex-col gap-3 items-center justify-center text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl text-purple-600 uppercase font-black animate-pulse tracking-wide">
               {t("title")}
+            </h1>
             <h3 className="text-xl sm:text-2xl text-white uppercase font-bold">
               {t("caption")}
             </h3>
@@ -53,49 +52,47 @@ export default function Home() {
       <Container>
         <Section id="about">
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleAbout")} 
+            {t("titleAbout")}
           </h1>
           <p className="text-center mt-6 text-white  text-base lg:text-lg">
             {t("textAbout")}
           </p>
         </Section>
 
-        <Section  id="services">
+        <Section id="services">
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleServices")} 
+            {t("titleServices")}
           </h1>
-          <CardServices/>
+          <CardServices />
         </Section>
 
-        <Section  id="skills">
+        <Section id="skills">
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleSkills")}  
+            {t("titleSkills")}
           </h1>
           <Skills />
         </Section>
 
-        <Section  id="project">
+        <Section id="project">
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleProject")} 
+            {t("titleProject")}
           </h1>
-          <CardProject />
         </Section>
 
-
-
-        <Section  id="contact">
+        <Section id="contact">
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
-            {t("titleContact")}  
+            {t("titleContact")}
           </h1>
-         <p className="text-2xl text-gray-300 font-medium max-w-xl my-4 text-center">{t ("textContact")}</p>
-         <div className="flex gap-2 items-center text-white ">
-         <Mail/>
-         <p className="text-white text-lg my-2">mateusveloso2608@gmail.com</p>
-         </div>
-       
+          <p className="text-2xl text-gray-300 font-medium max-w-xl my-4 text-center">
+            {t("textContact")}
+          </p>
+          <div className="flex gap-2 items-center text-white ">
+            <Mail />
+            <p className="text-white text-lg my-2">
+              mateusveloso2608@gmail.com
+            </p>
+          </div>
         </Section>
-
-      <ScrollToTopButton/>
       </Container>
     </div>
   );
