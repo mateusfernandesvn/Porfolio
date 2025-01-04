@@ -19,8 +19,8 @@ export default function Home() {
       <div className="min-h-screen w-full relative overflow-hidden flex items-center justify-center pt-20">
         <Bg className="absolute inset-0 w-full h-full z-10" />
         <div className="w-full flex flex-col-reverse lg:flex-row items-center justify-evenly px-4 md:px-8 relative z-20">
-          <div className="flex flex-col gap-3 items-center justify-center text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl text-purple-600 uppercase font-black animate-pulse tracking-wide">
+        <div className="flex flex-col gap-3 items-center justify-center text-center">
+            <h1 className="text-3xl sm:text-4xl mt-2 md:text-5xl text-purple-600 uppercase font-black animate-pulse tracking-wide">
               {t("title")}
             </h1>
             <h3 className="text-xl sm:text-2xl text-white uppercase font-bold">
