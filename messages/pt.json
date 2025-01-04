@@ -9,10 +9,9 @@
         "caption":"Desenvolvedor Front-End",
         "description":"Criando websites de Alta Performance e com Foco no Usuário.",
         "cta": "Entrar em contato",
-        "curriculum": "Ver meu curriculo",
         "copyright": "© 2025 | Mateus Fernandes. Agradecemos sua visita!",
         "titleAbout":"Sobre",
-        "textAbout": "Sou Técnico em Desenvolvimento de Sistemas, formado pelo Senai Cimatec, onde desenvolvi uma base sólida em programação e criação de soluções tecnológicas. Durante minha formação, adquiri experiência prática com tecnologias como HTML, CSS, JavaScript, Node.js, C, MySQL, Figma e GitHub, além de aprofundar meus conhecimentos em React, Next.js, TypeScript e Tailwind CSS. Estou em busca da minha primeira oportunidade profissional na área de desenvolvimento, onde possa aplicar meus conhecimentos, colaborar com profissionais experientes e contribuir para projetos inovadores. Meu objetivo é crescer continuamente como desenvolvedor, entregando valor e soluções eficientes em cada desafio.",
+        "textAbout": "Olá! Sou Mateus Fernandes, desenvolvedor baiano de Salvador, formado como Técnico em Desenvolvimento de Sistemas pelo Senai Cimatec e atualmente cursando Análise e Desenvolvimento de Sistemas na Descomplica. Desde que iniciei meus estudos em 2022, venho me especializando em criar soluções digitais modernas e eficientes, utilizando tecnologias como JavaScript, TypeScript, React.js e Node.js. Ao longo dessa jornada, desenvolvi uma paixão por construir aplicações interativas e dinâmicas, sempre buscando otimizar a experiência do usuário e agregar valor ao negócio. Estou comprometido em utilizar minhas habilidades para ajudar o seu negócio a se destacar no mercado e alcançar seus objetivos. 🚀",
         "titleServices": "Serviços",
         "webDevelopment": "Desenvolvimento de aplicações web personalizadas e otimizadas.",
         "uiDesign":"Criação de interfaces intuitivas e envolventes para uma ótima experiência.",
@@ -21,7 +20,7 @@
         "titleSkills": "Habilidades",
         "titleProject": "Projetos",
         "titleContact": "Contato",
-        "textContact":"Tem alguma dúvida ou quer discutir um projeto? Envie um e-mail para mim, estou à disposição para conversar!"
+        "textContact":"Se você tiver dúvidas ou quiser discutir um projeto, entre em contato comigo pelo e-mail mateusveloso@gmail.com ou pelo WhatsApp (71) 99639-7126. Estou à disposição para conversar!"
 
     }
 }
