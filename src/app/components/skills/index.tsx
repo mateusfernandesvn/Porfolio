@@ -16,19 +16,19 @@ import {
 
 export function Skills() {
   const skills = [
-    { title: "JavaScript", icon: <SiJavascript size={40} /> },
-    { title: "React", icon: <FaReact size={40} /> },
-    { title: "TypeScript", icon: <SiTypescript size={40} /> },
-    { title: "Next.js", icon: <SiNextdotjs size={40} /> },
-    { title: "Node.js", icon: <FaNodeJs size={40} /> },
-    { title: "Firebase", icon: <RiFirebaseFill size={40} /> },
-    { title: "MySQL", icon: <GrMysql size={40} /> },
-    { title: "HTML", icon: <SiHtml5 size={40} /> },
-    { title: "CSS", icon: <FaCss3Alt size={40} /> },
-    { title: "Tailwind", icon: <RiTailwindCssFill size={40} /> },
-    { title: "Sass", icon: <SiSass size={40} /> },
-    { title: "Figma", icon: <SiFigma size={40} /> },
-    { title: "Git", icon: <SiGit size={40} /> },
+    { title: "JavaScript", icon: <SiJavascript size={36} /> },
+    { title: "React", icon: <FaReact size={36} /> },
+    { title: "TypeScript", icon: <SiTypescript size={36} /> },
+    { title: "Next.js", icon: <SiNextdotjs size={36} /> },
+    { title: "Node.js", icon: <FaNodeJs size={36} /> },
+    { title: "Firebase", icon: <RiFirebaseFill size={36} /> },
+    { title: "MySQL", icon: <GrMysql size={36} /> },
+    { title: "HTML", icon: <SiHtml5 size={36} /> },
+    { title: "CSS", icon: <FaCss3Alt size={36} /> },
+    { title: "Tailwind", icon: <RiTailwindCssFill size={36} /> },
+    { title: "Sass", icon: <SiSass size={36} /> },
+    { title: "Figma", icon: <SiFigma size={36} /> },
+    { title: "Git", icon: <SiGit size={36} /> },
   ];
 
   return (
@@ -36,9 +36,10 @@ export function Skills() {
       {skills.map((skill, index) => (
         <div
           key={index}
-          className="flex flex-row bg-white py-2 px-6 justify-center shadow-lg rounded-xl gap-5 items-center hover:scale-105 duration-300 transition-all">
+          className="flex flex-row overflow-hidden bg-neutral-900 py-3 px-12 justify-center shadow-lg rounded-xl gap-4 items-center hover:scale-105 duration-300 transition-all max-md:gap-2"
+        >
           <div className="mb-2 text-purple-600">{skill.icon}</div>
-          <p className="text-black font-medium">{skill.title}</p>
+          <p className="text-white font-medium max-md:text-sm">{skill.title}</p>
         </div>
       ))}
     </div>

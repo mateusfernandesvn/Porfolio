@@ -7,7 +7,7 @@ interface SectionProps {
 
 export function Section({id, children}: SectionProps) {
   return (
-    <section className="w-full flex flex-col items-center justify-center mt-8 p-12 ">
+    <section className="w-full flex flex-col items-center justify-center mt-8 p-12 max-md:px-4  max-md:mt-0 ">
       {children}
     </section>
   );

@@ -27,12 +27,16 @@ export default function Home() {
               {t("description")}
             </p>
             <div className="flex gap-4 items-center justify-center flex-wrap m-6 max-md:flex-col">
-              <button className="p-3 w-48 bg-transparent border-2 font-medium border-purple-600 text-white rounded-xl shadow-md hover:bg-purple-700">
-                {t("curriculum")}
-              </button>
-              <button className="p-3 w-48 bg-purple-600 text-white font-medium rounded-xl shadow-md hover:bg-purple-700">
-                {t("cta")}
-              </button>
+          
+              <a
+                href="https://wa.me/71996397126"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="p-3 w-48 bg-purple-600 text-white font-medium rounded-xl shadow-md hover:bg-purple-700">
+                  {t("cta")}
+                </button>
+              </a>
             </div>
           </div>
           <div className="relative z-30 mt-6 md:mt-0">
@@ -54,7 +58,7 @@ export default function Home() {
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
             {t("titleAbout")}
           </h1>
-          <p className="text-center mt-6 text-white  text-base lg:text-lg">
+          <p className="text-justify mt-6 text-white  lg:text-lg">
             {t("textAbout")}
           </p>
         </Section>
@@ -83,12 +87,12 @@ export default function Home() {
           <h1 className="text-white text-4xl my-4 tracking-wider font-black capitalize lg:text-5xl">
             {t("titleContact")}
           </h1>
-          <p className="text-2xl text-gray-300 font-medium max-w-xl my-4 text-center">
+          <p className="text-2xl text-gray-300 font-medium max-w-3xl my-4 text-center max-md:w-full max-md:text-lg">
             {t("textContact")}
           </p>
           <div className="flex gap-2 items-center text-white ">
             <Mail />
-            <p className="text-white text-lg my-2">
+            <p className="text-white text-lg my-2 max-md:text-base">
               mateusveloso2608@gmail.com
             </p>
           </div>
