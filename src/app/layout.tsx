@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import Header from "./components/header";
@@ -63,9 +64,8 @@ export const metadata: Metadata = {
       follow: true,
       noimageindex: true,
     },
-  } 
+  }
 };
-
 
 export default async function RootLayout({
   children,
@@ -73,15 +73,33 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const locale = await getLocale();
-
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
     <html lang={locale}>
-       <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      <head>
+        <meta
+          name="google-site-verification"
+          content="pah5o5pX8dtS-0yO0CEhNpuAQ5ngZkGZB3g1T76h-r4"
+        />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      </head>
       <body>
+        {/* Google Analytics */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-2S8LSQPGFR"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2S8LSQPGFR');
+          `}
+        </Script>
+        
         <Header />
         <NextIntlClientProvider messages={messages}>
           {children}
