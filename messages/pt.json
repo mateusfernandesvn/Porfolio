@@ -1,5 +1,4 @@
 {
-   
     "Home":{
         "home":"Início",
         "about":"Sobre",
@@ -19,8 +18,20 @@
         "maintenance": "Manutenção e suporte técnico contínuo para garantir a performance do seu site.",
         "titleSkills": "Habilidades",
         "titleProject": "Projetos",
+        "titleBarber": "Barbearia",
+        "descriptionBarber": "Landing page responsiva para uma barbearia, com um design elegante, navegação intuitiva e apresentação clara dos serviços e informações.",
+        "titleCineverse": "Cineverse",
+        "descriptionCineverse":"Cineverse é uma aplicação inovadora para amantes de cinema, que oferece uma interface intuitiva e moderna para explorar filmes e séries.",
+        "titleSenaiBot": "Senaibot",
+        "descriptionSenaiBot": "O projeto tem como objetivo otimizar o processo de consulta de patentes no INPI (Instituto Nacional da Propriedade Industrial) por meio da automação.",
+        "titleDevCurrency": "Dev Currency",
+        "descriptionDevCurrency":"Dev Currency é uma aplicação prática e eficiente para monitorar o valor das criptomoedas em tempo real. Com uma interface limpa e intuitiva.",
+        "view": "Visualizar",
         "titleContact": "Contato",
-        "textContact":"Se você tiver dúvidas ou quiser discutir um projeto, entre em contato comigo pelo e-mail mateusveloso@gmail.com ou pelo WhatsApp (71) 99639-7126. Estou à disposição para conversar!"
+        "textContact": "Se você tiver dúvidas ou quiser discutir um projeto, entre em contato comigo por e-mail 📧 mateusveloso@gmail.com ou pelo WhatsApp 📞 (+55) 71 99639-7126. Estou à disposição para conversar!"
+
+
+     
 
     }
 }

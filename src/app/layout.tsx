@@ -69,6 +69,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+       <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       <body>
         <Header />
         <NextIntlClientProvider messages={messages}>

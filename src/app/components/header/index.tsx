@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { Languages } from "lucide-react";
 
+
 export default function Header() {
   const t = useTranslations("Home");
 

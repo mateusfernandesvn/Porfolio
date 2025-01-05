@@ -1,6 +1,4 @@
 {
- 
-
     "Home":{
         "home":"Home",
         "about":"about",
@@ -21,8 +19,16 @@
         "maintenance": "Continuous maintenance and technical support to ensure your website's performance.",
         "titleSkills": "Skills",
         "titleProject": "Project",
+        "titleBarber": "Barbershop",
+        "descriptionBarber":"Responsive landing page for a barber shop, with an elegant design, intuitive navigation and clear presentation of services and information.",
+        "titleCineverse": "Cineverse",
+        "descriptionCineverse":"Cineverse is an innovative application for movie and series enthusiasts, offering an intuitive and modern interface to explore films and series.",
+        "titleSenaiBot": "SenaiBot",
+        "descriptionSenaiBot": "This project aims to optimize the patent search process at INPI (National Institute of Industrial Property) through automation, improving the efficiency and speed of accessing patent data.",
+        "titleDevCurrency": "Dev Currency",
+        "descriptionDevCurrency":"Dev Currency is a practical and efficient application for tracking cryptocurrency values in real time. With a clean and intuitive interface.",
+        "view": "view",
         "titleContact": "Contact",
-        "textContact": "Do you have any questions or want to discuss a project? Send me an email, I’m available to chat!"
-
+        "textContact": "If you have any questions or want to discuss a project, contact me by email 📧 mateusveloso@gmail.com or WhatsApp 📞 (+55) 71 99639-7126. I’m available to chat!"
     }
 }

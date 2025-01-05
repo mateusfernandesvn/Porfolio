@@ -1,5 +1,4 @@
 {
- 
     "Home":{
         "home": "Accueil",
         "about": "À propos",
@@ -15,12 +14,22 @@
         "textAbout": "Bonjour ! Je suis Mateus Fernandes, un développeur de Salvador, Bahia, diplômé en Développement de Systèmes du Senai Cimatec et actuellement étudiant en Analyse et Développement de Systèmes à Descomplica. Depuis le début de mes études en 2022, je me spécialise dans la création de solutions numériques modernes et efficaces en utilisant des technologies telles que JavaScript, TypeScript, React.js et Node.js. Tout au long de ce parcours, j'ai développé une passion pour la création d'applications interactives et dynamiques, cherchant toujours à optimiser l'expérience utilisateur et à ajouter de la valeur à l'entreprise. Je suis déterminé à utiliser mes compétences pour aider votre entreprise à se démarquer sur le marché et à atteindre ses objectifs. 🚀",
         "titleServices": "Services",
         "webDevelopment": "Développement d'applications web personnalisées et optimisées.",
-        "uiDesign": "Création d'interfaces intuitives et attrayantes pour une expérience optimale.",
+        "uiDesign": "Création d'interfaces intuitives et attrayantes pour une expérience optimale",
         "seoOptimization": "Optimisation des sites pour les moteurs de recherche, augmentant la visibilité.",
         "maintenance": "Maintenance et support technique continus pour garantir les performances de votre site.",
         "titleSkills": "Compétences",
         "titleProject": "Projets",
+        "titleBarber": "Salon de coiffure",
+        "descriptionBarber": "Page de destination responsive pour un salon de barbier, avec un design élégant, une navigation intuitive et une présentation claire des services et des informations.",
+        "titleCineverse": "Cinéverse",
+        "descriptionCineverse":"Cineverse est une application innovante pour les passionnés de cinéma, offrant une interface intuitive et moderne pour explorer les films et les séries.",
+        "titleSenaiBot": "Senaibot",
+        "descriptionSenaiBot": "Ce projet vise à optimiser le processus de recherche de brevets à l'INPI (Institut National de la Propriété Industrielle) grâce à l'automatisation, améliorant l'efficacité et la rapidité d'accès aux données des brevets.",
+        "titleDevCurrency": "Dev Currency",
+        "descriptionDevCurrency":"Dev Currency est une application pratique et efficace pour suivre les valeurs des cryptomonnaies en temps réel. Avec une interface claire et intuitive.",
+        "view": "voir",
         "titleContact": "Contact",
-        "textContact": "Vous avez des questions ou souhaitez discuter d’un projet ? Envoyez-moi un e-mail, je suis disponible pour discuter !"
+        "textContact": "Si vous avez des questions ou souhaitez discuter d'un projet, contactez-moi par e-mail 📧 mateusveloso@gmail.com ou par WhatsApp 📞 (+55) 71 99639-7126. Je suis à votre disposition pour discuter !"
+
     }
 }
