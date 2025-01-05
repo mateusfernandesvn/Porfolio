@@ -7,7 +7,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Mateus Fernandes | Desenvolvedor Web",
-  description: "Meu nome é Mateus Fernandes, desenvolvo interfaces web modernas, responsivas e focadas em proporcionar a melhor experiência ao usuário.",
+  description: "Sou Mateus Fernandes, um desenvolvedor web especializado em criar interfaces modernas, responsivas e com foco na melhor experiência do usuário. Confira meu portfólio e meus projetos!",
   keywords: [
     "desenvolvedor web",
     "interfaces web",
@@ -18,9 +18,13 @@ export const metadata: Metadata = {
     "freelancer web",
     "design moderno",
     "desenvolvimento web profissional",
-    "portfólio",
+    "portfólio de desenvolvedor",
     "portfólio front-end",
-    "front-end"
+    "front-end",
+    "Mateus Fernandes",
+    "programador",
+    "programação web",
+    "sites responsivos",
   ],
   authors: [
     {
@@ -30,17 +34,25 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Mateus Fernandes | Desenvolvedor Web",
-    description: "Desenvolvedor web focado em criar experiências digitais excepcionais.",
+    description: "Desenvolvedor web focado em criar experiências digitais excepcionais com design responsivo e otimizado para SEO.",
     url: "https://mateusfernandes.com.br", 
     images: [
       {
-        url: "/imagem.png",
+        url: "/image.png",  
         width: 1200,
         height: 630,
-        alt: "Mateus Fernandes",
+        alt: "Imagem de Mateus Fernandes, Desenvolvedor Web",
         type: "image/png",
       },
     ],
+    locale: "pt_BR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@mateusfernandesvn",
+    creator: "@mateusfernandesvn",
+    title: "Mateus Fernandes | Desenvolvedor Web",
+    description: "Portfólio e projetos de Mateus Fernandes, desenvolvedor web especializado em criar experiências digitais responsivas e focadas no usuário."
   },
   robots: {
     index: true,
@@ -51,9 +63,8 @@ export const metadata: Metadata = {
       follow: true,
       noimageindex: true,
     },
-  },
+  } 
 };
-
 
 
 export default async function RootLayout({

@@ -80,7 +80,7 @@ export default function Home() {
         <div className="flex flex-col py-40 items-center justify-center max-md:py-0">
           <Section id="contact">
             <Title title={t("titleContact")} />
-            <p className="text-2xl text-gray-300 font-medium max-w-3xl mb-4 text-center max-md:w-full max-md:text-xl">
+            <p className="text-2xl text-gray-300 font-medium max-w-3xl text-center  max-md:w-full max-md:text-base">
               {t("textContact")}
             </p>
           </Section>
