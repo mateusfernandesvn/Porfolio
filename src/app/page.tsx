@@ -77,7 +77,7 @@ export default function Home() {
           <CardProject />
         </Section>
 
-        <div className="flex flex-col py-40 items-center justify-center max-md:py-0">
+        <div className="flex flex-col py-28 items-center justify-center max-md:py-0">
           <Section id="contact">
             <Title title={t("titleContact")} />
             <p className="text-2xl text-gray-300 font-medium max-w-3xl text-center  max-md:w-full max-md:text-base">

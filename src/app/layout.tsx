@@ -7,6 +7,7 @@ import Footer from "./components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mateusfernandes.com.br"), // URL base para seu site
   title: "Mateus Fernandes | Desenvolvedor Web",
   description: "Sou Mateus Fernandes, um desenvolvedor web especializado em criar interfaces modernas, responsivas e com foco na melhor experiência do usuário. Confira meu portfólio e meus projetos!",
   keywords: [
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     url: "https://mateusfernandes.com.br", 
     images: [
       {
-        url: "/image.png",  
+        url: "/image.png", 
         width: 1200,
         height: 630,
         alt: "Imagem de Mateus Fernandes, Desenvolvedor Web",
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
     site: "@mateusfernandesvn",
     creator: "@mateusfernandesvn",
     title: "Mateus Fernandes | Desenvolvedor Web",
-    description: "Portfólio e projetos de Mateus Fernandes, desenvolvedor web especializado em criar experiências digitais responsivas e focadas no usuário."
+    description: "Portfólio e projetos de Mateus Fernandes, desenvolvedor web especializado em criar experiências digitais responsivas e focadas no usuário.",
   },
   robots: {
     index: true,
@@ -64,7 +65,7 @@ export const metadata: Metadata = {
       follow: true,
       noimageindex: true,
     },
-  }
+  },
 };
 
 export default async function RootLayout({
