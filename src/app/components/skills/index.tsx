@@ -6,6 +6,7 @@ import {
   SiTypescript,
   SiNextdotjs,
   SiNodedotjs,
+  SiPostman,
   SiReact,
   SiMysql,
   SiHtml5,
@@ -27,6 +28,7 @@ export function Skills() {
     { title: "CSS", icon: <FaCss3Alt size={36} /> },
     { title: "Tailwind", icon: <RiTailwindCssFill size={36} /> },
     { title: "Sass", icon: <SiSass size={36} /> },
+    { title: "Postman", icon: <SiPostman size={36} /> },
     { title: "Figma", icon: <SiFigma size={36} /> },
     { title: "Git", icon: <SiGit size={36} /> },
   ];

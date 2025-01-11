@@ -37,7 +37,7 @@ export function Section({ id, children }: SectionProps) {
         y: isInView ? 0 : 50, 
       }}
       transition={{
-        duration: 1.2,
+        duration: 1.0,
         ease: "easeOut", 
       }}
       id={id}
