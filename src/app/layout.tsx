@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { NextIntlClientProvider } from "next-intl";
+import { ThemeProvider } from "../providers/theme";
 import { getLocale, getMessages } from "next-intl/server";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mateusfernandes.com.br"), // URL base para seu site
+  metadataBase: new URL("https://mateusfernandes.com.br"),
   title: "Mateus Fernandes | Desenvolvedor Web",
-  description: "Sou Mateus Fernandes, um desenvolvedor web especializado em criar interfaces modernas, responsivas e com foco na melhor experiência do usuário. Confira meu portfólio e meus projetos!",
+  description:
+    "Sou Mateus Fernandes, um desenvolvedor web especializado em criar interfaces modernas, responsivas e com foco na melhor experiência do usuário. Confira meu portfólio e meus projetos!",
   keywords: [
     "desenvolvedor web",
     "interfaces web",
@@ -36,11 +38,12 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Mateus Fernandes | Desenvolvedor Web",
-    description: "Desenvolvedor web focado em criar experiências digitais excepcionais com design responsivo e otimizado para SEO.",
-    url: "https://mateusfernandes.com.br", 
+    description:
+      "Desenvolvedor web focado em criar experiências digitais excepcionais com design responsivo e otimizado para SEO.",
+    url: "https://mateusfernandes.com.br",
     images: [
       {
-        url: "/image.png", 
+        url: "/image.png",
         width: 1200,
         height: 630,
         alt: "Imagem de Mateus Fernandes, Desenvolvedor Web",
@@ -54,7 +57,8 @@ export const metadata: Metadata = {
     site: "@mateusfernandesvn",
     creator: "@mateusfernandesvn",
     title: "Mateus Fernandes | Desenvolvedor Web",
-    description: "Portfólio e projetos de Mateus Fernandes, desenvolvedor web especializado em criar experiências digitais responsivas e focadas no usuário.",
+    description:
+      "Portfólio e projetos de Mateus Fernandes, desenvolvedor web especializado em criar experiências digitais responsivas e focadas no usuário.",
   },
   robots: {
     index: true,
@@ -100,12 +104,18 @@ export default async function RootLayout({
             gtag('config', 'G-2S8LSQPGFR');
           `}
         </Script>
-        
-        <Header />
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
-        <Footer />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Header />
+          <NextIntlClientProvider messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

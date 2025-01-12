@@ -38,10 +38,14 @@ export function Skills() {
       {skills.map((skill, index) => (
         <div
           key={index}
-          className="flex flex-row overflow-hidden bg-neutral-900 py-3 px-12 justify-center shadow-lg rounded-xl gap-4 items-center hover:rotate-3 ease-in-out duration-500 transition-all max-md:gap-2"
+          className="flex flex-row overflow-hidden bg-slate-50 dark:bg-neutral-900 py-3 px-12 justify-center shadow-lg rounded-xl gap-4 items-center hover:rotate-3 ease-in-out duration-500 transition-all max-md:gap-2"
         >
-          <div className="mb-2 text-purple-500">{skill.icon}</div>
-          <p className="text-white font-medium max-md:text-sm">{skill.title}</p>
+          <div className="mb-2 text-purple-700 dark:text-purple-500">
+            {skill.icon}
+          </div>
+          <p className="text-black dark:text-white font-medium max-md:text-sm">
+            {skill.title}
+          </p>
         </div>
       ))}
     </div>

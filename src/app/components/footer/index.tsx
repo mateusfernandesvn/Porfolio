@@ -5,9 +5,9 @@ export default function Footer() {
    const t = useTranslations("Home"); 
 
   return (
-    <div className="w-full p-6 flex-col-reverse bg-black text-white flex  items-center justify-center md:flex-row md:justify-around ">
+    <div className="w-full p-4 flex-col-reverse bg-slate-200 text-black dark:bg-black dark:text-white flex  items-center justify-center md:flex-row md:justify-around ">
 
-      <p className="text-center text-sm text-gray-400 opacity-80 md: mt-4">
+      <p className="text-center text-sm text-gray-800 dark:text-gray-400 opacity-80 md: mt-4">
        {t("copyright")}
       </p>
       

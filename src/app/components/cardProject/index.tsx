@@ -37,12 +37,12 @@ export function CardProject() {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="text-white text-center border border-purple-600 p-6 rounded-lg shadow-lg  "
+          className="ttext-black dark:text-white text-center border border-purple-600 p-6 rounded-lg shadow-lg  "
         >
-          <h2 className="text-3xl text-white text-center font-semibold capitalize mt-4 mb-2 ">
+          <h2 className="text-3xl text-black dark:text-white text-center font-semibold capitalize mt-4 mb-2 ">
             {project.title}
           </h2>
-          <p className="text-sm text-gray-300 mb-4 group-hover:text-gray-100 transition-colors duration-300">
+          <p className="text-sm  text-black dark:text-gray-300 mb-4 group-hover:text-gray-100 transition-colors duration-300">
             {project.description}
           </p>
 
