@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { ModeToggle } from "../ui/modeToggle";
+import { LanguagesToggle } from "../ui/LanguagesToggle";
 
 export default function Header() {
   const t = useTranslations("Home");
@@ -10,7 +11,9 @@ export default function Header() {
       <nav className="w-full px-20 flex justify-between items-center max-lg:px-2">
         <div>
           <Link href="/" className="text-2xl uppercase font-bold">
-            &lt;MF <span className="text-purple-800 dark:text-purple-500">Dev</span>/&gt;
+            &lt;MF{" "}
+            <span className="text-purple-800 dark:text-purple-500">Dev</span>
+            /&gt;
           </Link>
         </div>
         <div className="flex gap-6 items-center capitalize font-semibold text-lg max-lg:hidden">
@@ -43,8 +46,9 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-4 items-center">
           <ModeToggle />
+          <LanguagesToggle />
         </div>
       </nav>
     </div>
