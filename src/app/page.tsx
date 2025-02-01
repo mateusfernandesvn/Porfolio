@@ -49,7 +49,6 @@ export default function Home() {
               width={280}
               height={280}
               quality={100}
-              priority={true}
               className="border-2 bg-white dark:bg-black border-purple-600 rounded-full hover:animate-spin duration-200 ease-in-out hover:border-purple-800 "
             />
           </div>

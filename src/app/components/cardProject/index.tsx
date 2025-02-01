@@ -11,9 +11,9 @@ export function CardProject() {
 
   const projects: Project[] = [
     {
-      title: t("titleBarber"),
-      description: t("descriptionBarber"),
-      siteUrl: "https://barberanavalha.vercel.app/",
+      title: t("titleSenaiBot"),
+      description: t("descriptionSenaiBot"),
+      siteUrl: "https://www.youtube.com/watch?v=GSzvVvewhI4",
     },
     {
       title: t("titleCineverse"),
@@ -21,15 +21,16 @@ export function CardProject() {
       siteUrl: "https://cineverseofc.vercel.app/",
     },
     {
+      title: t("titleBarber"),
+      description: t("descriptionBarber"),
+      siteUrl: "https://barberanavalha.vercel.app/",
+    },
+    {
       title: t("titleDevCurrency"),
       description: t("descriptionDevCurrency"),
       siteUrl: "https://criptomoedas-topaz.vercel.app/",
     },
-    {
-      title: t("titleSenaiBot"),
-      description: t("descriptionSenaiBot"),
-      siteUrl: "https://www.youtube.com/watch?v=GSzvVvewhI4",
-    },
+  
   ];
 
   return (
@@ -37,7 +38,7 @@ export function CardProject() {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="ttext-black dark:text-white text-center border border-purple-600 p-6 rounded-lg shadow-lg  "
+          className="text-black dark:text-white text-center border border-purple-600 p-6 rounded-lg shadow-lg  "
         >
           <h2 className="text-3xl text-black dark:text-white text-center font-semibold capitalize mt-4 mb-2 ">
             {project.title}

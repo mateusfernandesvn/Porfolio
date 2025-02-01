@@ -8,6 +8,7 @@ import {
   SiNodedotjs,
   SiPostman,
   SiReact,
+  SiPython,
   SiMysql,
   SiHtml5,
   SiSass,
@@ -22,6 +23,7 @@ export function Skills() {
     { title: "TypeScript", icon: <SiTypescript size={36} /> },
     { title: "Next.js", icon: <SiNextdotjs size={36} /> },
     { title: "Node.js", icon: <FaNodeJs size={36} /> },
+    { title: "Python", icon: <SiPython size={36} /> },
     { title: "Firebase", icon: <RiFirebaseFill size={36} /> },
     { title: "MySQL", icon: <GrMysql size={36} /> },
     { title: "HTML", icon: <SiHtml5 size={36} /> },
@@ -38,7 +40,7 @@ export function Skills() {
       {skills.map((skill, index) => (
         <div
           key={index}
-          className="flex flex-row overflow-hidden bg-slate-50 dark:bg-neutral-900 py-3 px-12 justify-center shadow-lg rounded-xl gap-4 items-center hover:rotate-3 ease-in-out duration-500 transition-all max-md:gap-2"
+          className="flex flex-row overflow-hidden bg-slate-50 dark:bg-neutral-900 py-3 px-12 justify-center shadow-lg rounded-xl gap-4 items-center hover:rotate-6 ease-in-out duration-500 transition-all max-md:gap-2"
         >
           <div className="mb-2 text-purple-700 dark:text-purple-500">
             {skill.icon}

@@ -81,16 +81,15 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         <meta
           name="google-site-verification"
           content="pah5o5pX8dtS-0yO0CEhNpuAQ5ngZkGZB3g1T76h-r4"
         />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/icon.svg" type="image/x-icon" />
       </head>
       <body>
-        {/* Google Analytics */}
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-2S8LSQPGFR"
@@ -105,16 +104,15 @@ export default async function RootLayout({
           `}
         </Script>
         <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Header />
+            attribute="class"
+            defaultTheme="dark"
+            disableTransitionOnChange
+          >
           <NextIntlClientProvider messages={messages}>
+            <Header />
             {children}
+            <Footer />
           </NextIntlClientProvider>
-          <Footer />
         </ThemeProvider>
       </body>
     </html>
