@@ -31,7 +31,7 @@ export default function Home() {
             </p>
             <div className="flex gap-4 items-center justify-center flex-wrap m-2 max-md:flex-col">
               <a
-                href="https://wa.me/71996397126"
+                href="https://wa.me/41783028107"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -48,7 +48,7 @@ export default function Header() {
 
         <div className="flex gap-4 items-center">
           <ModeToggle />
-          <LanguagesToggle />
+          {/* <LanguagesToggle /> */}
         </div>
       </nav>
     </div>
