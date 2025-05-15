@@ -9,7 +9,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mateusfernandes.com.br"),
-  title: "Mateus Fernandes",
+  title: "Dev Mateus Fernandes",
   description:
     "Sou Mateus Fernandes, um desenvolvedor web especializado em criar interfaces modernas, responsivas e com foco na melhor experiência do usuário. Confira meu portfólio e meus projetos!",
   keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     },
   ],
   openGraph: {
-    title: "Mateus Fernandes",
+    title: "Dev Mateus Fernandes",
     description:
       "Desenvolvedor web focado em criar experiências digitais excepcionais com design responsivo e otimizado para SEO.",
     url: "https://mateusfernandes.com.br",

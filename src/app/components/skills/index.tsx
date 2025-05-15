@@ -14,10 +14,12 @@ import {
   SiSass,
   SiFigma,
   SiGit,
+  SiWordpress,
 } from "react-icons/si";
 
 export function Skills() {
   const skills = [
+    { title: "wordPress", icon: <SiWordpress size={36} /> },
     { title: "JavaScript", icon: <SiJavascript size={36} /> },
     { title: "React", icon: <FaReact size={36} /> },
     { title: "TypeScript", icon: <SiTypescript size={36} /> },
