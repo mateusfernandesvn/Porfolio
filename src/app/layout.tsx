@@ -103,6 +103,15 @@ export default async function RootLayout({
             gtag('config', 'G-2S8LSQPGFR');
           `}
         </Script>
+        <script
+          type="text/javascript"
+          data-cmp-ab="1"
+          src="https://cdn.consentmanager.net/delivery/autoblocking/6a640df5e22dd.js"
+          data-cmp-host="b.delivery.consentmanager.net"
+          data-cmp-cdn="cdn.consentmanager.net"
+          data-cmp-codesrc="16"
+        ></script>
+        
         <ThemeProvider
             attribute="class"
             defaultTheme="dark"
